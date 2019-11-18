@@ -27,9 +27,7 @@ pacman -Syu code --noconfirm
 pacman -Syu firefox --noconfirm
 
 
-# git configuration
-git config --global user.name "Your name"
-git config --global user.email "Your email address"
+# workspace configuration
 mkdir /home/user/Documents/gitspace
 
 
@@ -42,6 +40,12 @@ mkdir /home/user/Documents/gitspace/rust
 pacman -Syu qtcreator --noconfirm
 pacman -Syu gdb --noconfirm
 pacman -Syu cmake --noconfirm
+
+
+# git configuration
+git config --global user.name "Your name"
+git config --global user.email "Your email address"
+chown -R user /home/user/Documents/gitspace
 
 
 # reboot at end
