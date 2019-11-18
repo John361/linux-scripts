@@ -27,5 +27,6 @@ User git
 IdentityFile ${RSA_PATH}
 EOF
 
-echo "Copy value in ${RSA_PATH}.pub, add it in your github account on the web, then run 'ssh -T git@github.com'"
+cat "${RSA_PATH}.pub"
+echo "Copy this value, add it in your github account in the ssh setting from the web, then run 'ssh -T git@github.com'"
 ################### SCRIPT ###################
