@@ -36,10 +36,15 @@ curl https://sh.rustup.rs -sSf | sh
 mkdir /home/user/Documents/gitspace/rust
 
 
-# qt framework
+# qt framework : if you do not install this, install gcc for rust
 pacman -Syu qtcreator --noconfirm
 pacman -Syu gdb --noconfirm
 pacman -Syu cmake --noconfirm
+
+
+# python
+pacman -Syu python-pip --noconfirm
+pip install virtualenv
 
 
 # git configuration
