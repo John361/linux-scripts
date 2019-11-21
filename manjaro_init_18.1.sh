@@ -40,11 +40,13 @@ mkdir /home/user/Documents/gitspace/rust
 pacman -Syu qtcreator --noconfirm
 pacman -Syu gdb --noconfirm
 pacman -Syu cmake --noconfirm
+mkdir /home/user/Documents/gitspace/cpp
 
 
 # python
 pacman -Syu python-pip --noconfirm
 pip install virtualenv
+mkdir /home/user/Documents/gitspace/python
 
 
 # git configuration
