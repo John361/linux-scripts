@@ -52,7 +52,7 @@ mkdir /home/user/Documents/gitspace/python
 # git configuration
 git config --global user.name "Your name"
 git config --global user.email "Your email address"
-chown -R user /home/user/Documents/gitspace
+chown -R user:user /home/user/Documents/gitspace
 
 
 # reboot at end
